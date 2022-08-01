@@ -1,0 +1,1 @@
+export const inputTypescript: string = "Typescript";
