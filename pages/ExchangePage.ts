@@ -1,5 +1,5 @@
 import { Page } from "@playwright/test";
-import { locators } from "../locators/locators";
+import { LOCATORS } from "../locators/locators";
 
 export class ExchangePage {
     private page: Page;
@@ -9,10 +9,10 @@ export class ExchangePage {
     }
 
     async checkExchangeRate() {
-        await this.page.locator(locators.rate).click();
+        await this.page.locator(LOCATORS.rate).click();
     }
 
     async checkCurrencyIsExist() {
-        return this.page.locator(locators.usd);
+        return this.page.locator(LOCATORS.usd);
     }
 }

@@ -1,5 +1,5 @@
 import { Page } from "@playwright/test";
-import { locators } from "../locators/locators";
+import { LOCATORS } from "../locators/locators";
 
 export class MainNewsPage {
     private page: Page;
@@ -9,10 +9,10 @@ export class MainNewsPage {
     }
 
     async checkMainNews() {
-        await this.page.locator(locators.main).click();
+        await this.page.locator(LOCATORS.main).click();
     }
 
     async checkAllNews() {
-        return this.page.locator(locators.newsLabel);
+        return this.page.locator(LOCATORS.newsLabel);
     }
 }

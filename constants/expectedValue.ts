@@ -1,5 +1,5 @@
-export const expectedValue = {
-    baseURL: "https://3dnews.ru/",
-    resultOfSearch: "Microsoft",
-    resultOfCurrency: "USD",
+export const EXPECTED_VALUE = {
+    BASE_URL: "https://3dnews.ru/",
+    MICROSOFT: "Microsoft",
+    USD: "USD",
 };

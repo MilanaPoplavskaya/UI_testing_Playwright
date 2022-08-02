@@ -1,1 +1,1 @@
-export const inputTypescript: string = "Typescript";
+export const TYPESCRIPT: string = "Typescript";

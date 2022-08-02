@@ -1,4 +1,4 @@
-export const locators = {
+export const LOCATORS = {
     searchInput: '[name="query-input"]',
     containsText: '//a[contains(text(), "Microsoft")]',
     finance: '[title="it-финансы"]',
